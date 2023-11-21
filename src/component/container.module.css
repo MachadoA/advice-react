@@ -1,0 +1,24 @@
+section{
+    max-width: 350px;
+    width: 100%;
+    margin: 20vh auto;
+    background-color: var(--Dark-Grayish-Blue);
+    color: var(--fontColor-Light-Cyan);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 15px;
+    position: relative;
+}
+
+p{color: var(--Neon-Green); font-size: 14px;text-transform: uppercase; letter-spacing: 3px;}
+
+h1{padding: 40px 10px;}
+
+/* picture img{padding-bottom: 20px;} */
+
+
+@media (min-width: 750px){
+    section{
+        max-width: 600px;
+    }
+}

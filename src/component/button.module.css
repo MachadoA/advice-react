@@ -1,0 +1,16 @@
+.btnIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    bottom: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--Neon-Green);
+    cursor: pointer;
+}
+
+.btnIcon:hover{
+    filter: invert(0.1) brightness(1.2) drop-shadow(0 0 15px var(--Neon-Green));
+}
